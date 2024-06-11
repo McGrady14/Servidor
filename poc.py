@@ -32,7 +32,7 @@ default_security_config = {
     "encryption_level": "high",
     "audit_logging": False
 }
-
+mongodb_uri = "mongodb+srv://redops:minery2021@feed.kfdcd.mongodb.net/test"
 security_config = SecurityConfig(default_security_config)
 
 # load template
