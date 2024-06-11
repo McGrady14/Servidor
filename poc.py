@@ -1,6 +1,7 @@
 import os, sys, json
 from urllib.parse import unquote
 
+connection_string = "DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz0123456789=="
 # custom script that configure security
 CONFIG_FILENAME = "config.json"
 COMMAND = f"./security_config.sh {CONFIG_FILENAME}"
